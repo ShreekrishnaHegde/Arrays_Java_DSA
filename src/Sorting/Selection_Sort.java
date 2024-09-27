@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Selection_Sort {
     public static void main(String[] args) {
-        int[] arr={5,4,3,2,1};
+        int[] arr={1,2,0};
         search(arr);
         System.out.println(Arrays.toString(arr));
     }
@@ -16,8 +16,8 @@ public class Selection_Sort {
             int max=0;
             //Finding the max in the current array.
             for (int j = 0; j <= last; j++) {
-                if(arr[i]>arr[max])
-                    max=i;
+                if(arr[j]>arr[max])
+                    max=j;
             }
             //swapping
             int temp=arr[last];
