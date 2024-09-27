@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Selection_Sort {
     public static void main(String[] args) {
-        int[] arr={1,2,0};
+        int[] arr={1,2,0,56,-6};
         search(arr);
         System.out.println(Arrays.toString(arr));
     }
